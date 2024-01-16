@@ -1,0 +1,44 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #b4e1ff, #ffd8cb);
+    height: 100vh;
+  }
+  
+  .home-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .email-input {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+    border: 1px solid #66a3ff;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #ff704d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #ff5722;
+  }
+  

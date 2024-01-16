@@ -1,0 +1,112 @@
+/* Quiz.css */
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(#DE7DE5, #90BEF2);
+    padding: 15px;
+    min-height: 100vh; /* Use min-height to ensure at least the viewport height */
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.questionBox {
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw; /* Adjusted max-width */
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.answer-options {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px;
+    max-width: 1000px;
+}
+
+.answer-option {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.answer-option.selected {
+    border: 2px solid rgb(79, 79, 237);
+}
+
+.navBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    flex-direction: row;
+    width: 100%; /* Adjusted width */
+}
+.navBtn button{
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    width: 100px;
+}
+.navBtn button:hover{
+    border: 2px solid #685cec;
+    transition: 0.5s;
+}
+.indicators {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; /* Adjusted width */
+    text-align: center;
+    list-style-type: none;
+}
+
+.indicators ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.question-numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0px;
+}
+
+.question-number {
+    color: gray;
+    border: 2px solid rgb(55, 52, 52);
+    border-radius: 10px;
+    width: 30px;
+    padding: 5px;
+    font-weight: normal;
+    margin: 5px;
+}
+
+.question-number.visited {
+    color: blue;
+    border: 2px solid blue;
+    font-weight: bold;
+}
+

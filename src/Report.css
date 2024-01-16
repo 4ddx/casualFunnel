@@ -1,0 +1,80 @@
+/* Report.css */
+
+.report-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .report-title {
+    text-align: center;
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .answers-section {
+    margin-top: 20px;
+  }
+  
+  .section-title {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .answers-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .answer-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+  }
+  
+  .question-number {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .user-answer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex-wrap: wrap;
+    color: gray; /* Blue color for user's answer */
+    font-weight: bold;
+  }
+  .correct-answer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex-wrap: wrap;
+    color: green;
+    font-weight: bold;
+  }
+  @media screen and (max-width: 600px) {
+    .report-container {
+      padding: 15px;
+    }
+  
+    .report-title {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+    }
+  
+    .answer-item {
+      padding: 10px 0;
+    }
+  
+    .question-number,
+    .user-answer,
+    .correct-answer {
+      font-size: 0.9rem;
+    }
+  }
+  
