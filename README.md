@@ -18,3 +18,9 @@ To submit your answers, you must navigate to the 15th question. Only submissions
 After submitting your answers, you will be redirected to a results page.
 The page will display the questions, your selected answers, and the correct answers.
 
+# Challenges:
+
+Some of the styling involved was too less to be included in the CSS file or make another CSS file for the component.
+In those places, inline-styling has been used. In an ideal scenario, Tailwind-css would be preferred due to it's readability and reusability.
+
+Thank you for using Quiz App!
